@@ -5,12 +5,12 @@ Test migrations bug [886](https://github.com/trufflesuite/truffle/issues/886) re
 - `truffle migrate`
 - `truffle migrate -f 3`
 
-The expected behaviour would be that the 3_deployContractB.js migrations script will run, but instead the output is `Network up to date`.
+The expected behaviour would be that the `3_deployContractB.js` migrations script will run, but instead the output is `Network up to date`.
 
 Also,
 
 - `rm -rf build`
 - `truffle migrate -f 1`
 
-The expected behaviour would be that only 1_initial_migrations.js will run, however, all migrations scripts are run.
+The expected behaviour would be that only `1_initial_migrations.js` will run, however, all migrations scripts are run.
 
