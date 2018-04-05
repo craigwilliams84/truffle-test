@@ -1,5 +1,5 @@
 # truffle-test
-Test migrations bug [886](https://github.com/trufflesuite/truffle/issues/886) reproduction.
+Migrations bug [886](https://github.com/trufflesuite/truffle/issues/886) reproduction.
 
 ## Steps
 - `truffle migrate`
