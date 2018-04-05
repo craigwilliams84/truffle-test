@@ -14,3 +14,6 @@ Also,
 
 The expected behaviour would be that only `1_initial_migrations.js` will run, however, all migrations scripts are run.
 
+## Note
+This issue occurs in v4.1.5 and v4.1.4, but works in v4.1.3.
+
